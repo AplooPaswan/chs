@@ -17,7 +17,7 @@ import GoogleIcon from '@mui/icons-material/Google';
 
 
 const clientId = "427283001518-7r1m5ubnjjqh46neaaehg39f6eobgka0.apps.googleusercontent.com";
-import { refreshTokenSetup } from '../Before/Google/refreshTocken'
+import { refreshTokenSetup } from '../Before/Google/refreshToken'
 import { useGoogleLogout } from 'react-google-login';
 import { GoogleLogin, useGoogleLogin } from "react-google-login";
 import AddNewSociety from './AddNewSociety';
