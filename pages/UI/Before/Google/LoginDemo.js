@@ -1,7 +1,6 @@
 import React from 'react';
 
 import { GoogleLogin } from 'react-google-login';
-import Navbar from '../Navbar';
 // refresh token
 import { refreshTokenSetup } from './refreshToken';
 
