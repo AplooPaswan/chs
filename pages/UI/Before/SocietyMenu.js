@@ -49,6 +49,7 @@ export default function SocietyMenu() {
         onClick={handleClick}
         // endIcon={<KeyboardArrowDownIcon />}
         endIcon={ <ArrowDropDownIcon />}
+        
       >
         <ApartmentIcon/>
       </Button>

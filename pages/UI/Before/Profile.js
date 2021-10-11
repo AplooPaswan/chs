@@ -99,11 +99,22 @@ export default function Profile() {
             <SocietyMenu />
 
             <AddNewSociety/>
+        {
+            login ?
+            
+            <IconButton color="inherit">
+                <Settings  />
+            </IconButton>
+            :
+            null
+        }
+
 
                 <Tooltip title="Account settings">
                     <IconButton color="inherit" onClick={ login ? handleClick : signIn} size="small" sx={{ ml: 2 }}>
                        
                         {  login ?
+                        
                             <Avatar src={img} sx={{ width: 32, height: 32 }}  alt={name} />
                             :
                             <GoogleIcon />
