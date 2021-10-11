@@ -7,11 +7,9 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import ApartmentIcon from '@mui/icons-material/Apartment';
-import SocietyMenu from './SocietyMenu'
-import AddNewSociety from './AddNewSociety'
 import { Avatar } from '@mui/material';
 import AddBusinessIcon from '@mui/icons-material/AddBusiness'
-import SwipeableEdgeDrawer from '../Before/Login'
+import Profile from './Profile'
 
 export default function SimpleAppBar() {
   return (
@@ -36,11 +34,7 @@ export default function SimpleAppBar() {
           </Typography>
 
           <Box display='flex' >
-            <SocietyMenu />
-            {/* <IconButton color="inherit"> <AddBusinessIcon/> </IconButton> */}
-            <AddNewSociety/>
-            {/* <Button  color="inherit">Login</Button> */}
-            <SwipeableEdgeDrawer/>
+              <Profile/>
           </Box>
         </Toolbar>
       </AppBar>
